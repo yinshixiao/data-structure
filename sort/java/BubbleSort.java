@@ -1,4 +1,7 @@
+package sort.java;
+
 public class BubbleSort {	
+	
 	public static void main(String[] args){
 		int arr[]={1,4,3,5,23,45,43};
 		for(int i=1;i<arr.length;i++){
@@ -11,6 +14,7 @@ public class BubbleSort {
 				}
 			}
 		}
+		
 		for (int i=0;i<arr.length;i++){
 			System.out.print(arr[i]+"...");
 		}
