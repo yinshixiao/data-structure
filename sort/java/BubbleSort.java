@@ -1,9 +1,10 @@
 package sort.java;
+import java.util.Random;
 
 public class BubbleSort {	
 	
 	public static void main(String[] args){
-		int arr[]={1,4,3,5,23,45,43};
+		int arr[]=new int[10000];
 		for(int i=1;i<arr.length;i++){
 			for(int j=0;j<arr.length-i;j++){
 				if(arr[j]>arr[j+1]){
